@@ -10,6 +10,7 @@ Plug 'tpope/vim-fugitive'
 Plug 'tpope/vim-surround'
 Plug 'scrooloose/nerdtree'
 Plug 'scrooloose/syntastic'
+Plug 'neovimhaskell/haskell-vim'
 
 """ Theme
 Plug 'yuttie/hydrangea-vim'
@@ -19,6 +20,7 @@ call plug#end()
 colorscheme hydrangea
 
 au BufRead,BufNewFile Podfile set filetype=ruby
+au BufRead,BufNewFile *.tidal set filetype=haskell
 
 set statusline+=%#warningmsg#
 set statusline+=%{SyntasticStatuslineFlag()}
