@@ -13,6 +13,7 @@ Plug 'scrooloose/nerdtree'
 Plug 'scrooloose/syntastic'
 Plug 'neovimhaskell/haskell-vim'
 Plug 'elmcast/elm-vim'
+Plug 'munshkr/vim-tidal'
 
 """ Theme
 Plug 'yuttie/hydrangea-vim'
