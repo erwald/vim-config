@@ -8,9 +8,11 @@ Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
 Plug 'tpope/vim-fugitive'
 Plug 'tpope/vim-surround'
+Plug 'tpope/vim-commentary'
 Plug 'scrooloose/nerdtree'
 Plug 'scrooloose/syntastic'
 Plug 'neovimhaskell/haskell-vim'
+Plug 'elmcast/elm-vim'
 
 """ Theme
 Plug 'yuttie/hydrangea-vim'
