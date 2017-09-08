@@ -14,6 +14,8 @@ Plug 'scrooloose/syntastic'
 Plug 'neovimhaskell/haskell-vim'
 Plug 'elmcast/elm-vim'
 Plug 'munshkr/vim-tidal'
+Plug 'junegunn/goyo.vim'
+Plug 'junegunn/limelight.vim'
 
 """ Theme
 Plug 'yuttie/hydrangea-vim'
@@ -42,3 +44,6 @@ set softtabstop=4
 set shiftwidth=4
 set expandtab
 
+"" Goyo & Limelight
+autocmd! User GoyoEnter Limelight
+autocmd! User GoyoLeave Limelight!
