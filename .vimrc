@@ -16,6 +16,9 @@ Plug 'elmcast/elm-vim'
 Plug 'munshkr/vim-tidal'
 Plug 'junegunn/goyo.vim'
 Plug 'junegunn/limelight.vim'
+Plug 'l04m33/vlime'
+Plug 'jalvesaq/Nvim-R'
+Plug 'chrisbra/csv.vim'
 
 """ Theme
 Plug 'yuttie/hydrangea-vim'
